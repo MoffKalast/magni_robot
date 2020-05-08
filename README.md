@@ -5,6 +5,13 @@ This package contains launch files and configuration files for the Magni robot.
 
 ## Launch files
 
+### magni_gazebo world.launch
+Runs world with robot and 4 markers
+
+### ground_fiducials ground_fiducials.launch 
+following markers
+
+
 ### magni_demos fiducial_follow.launch
 
 Runs everything for the fiducial follow demo. 

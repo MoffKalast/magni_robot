@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+
+    <include>
+        <name>tag_0</name>
+	<uri>model://tag</uri>
+	<pose>4 4 1 0 0 0</pose>
+    </include>
+
+
+    <include>
+        <name>tag_1</name>
+	<uri>model://tag</uri>
+	<pose>4 -4 1 0 0 0</pose>
+    </include>
+
+
+    <include>
+        <name>tag_2</name>
+	<uri>model://tag</uri>
+	<pose>-4 4 1 0 0 0</pose>
+    </include>
+
+
+
+    <include>
+        <name>tag_3</name>
+	<uri>model://tag</uri>
+	<pose>-4 -4 1 0 0 0</pose>
+    </include>
+   
+
+    <!-- reference to your plugin 
+ <plugin name="simple_world" filename="libsimple_world.so"/> -->
+   
+  </world>
+</sdf>
+
+

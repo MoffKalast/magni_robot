@@ -1,0 +1,11 @@
+material tag/Diffuse{
+  recive_shadows off
+  technique{
+   pass{
+    texture_unit{
+      texture aruco-49.png
+    }
+   }
+ } 
+}
+
