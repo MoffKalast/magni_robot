@@ -8,6 +8,12 @@ This package contains launch files and configuration files for the Magni robot.
 ### magni_gazebo world.launch
 Runs world with robot and 4 markers
 
+add to ~/.bashrc or enter to terminal before launching  
+
+export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/magni_robot/magni_gazebo/models
+
+
+
 ### ground_fiducials ground_fiducials.launch 
 following markers
 

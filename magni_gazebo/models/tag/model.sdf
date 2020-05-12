@@ -18,7 +18,7 @@
       <visual name='visual'>
         <geometry>
           <box>
-            <size>0.14 0.14 0.001</size>
+            <size>0.1488 0.1488 0.001</size>
           </box>
         </geometry>
         <material>
@@ -35,7 +35,7 @@
         <max_contacts>10</max_contacts>        
         <geometry>
           <box>
-            <size>0.14 0.14 0.001</size>
+            <size>0.1488 0.1488 0.001</size>
           </box>
         </geometry>
         <surface>
@@ -53,6 +53,7 @@
               <surface_radius>0</surface_radius>
               <use_patch_radius>1</use_patch_radius>
               <ode>
+
                 <slip>0</slip>
               </ode>
             </torsional>

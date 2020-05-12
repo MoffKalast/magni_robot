@@ -3,7 +3,7 @@ material tag/Diffuse{
   technique{
    pass{
     texture_unit{
-      texture aruco-49.png
+      texture B_aruco-49.png
     }
    }
  } 

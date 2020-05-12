@@ -13,21 +13,21 @@
     <include>
         <name>tag_0</name>
 	<uri>model://tag</uri>
-	<pose>4 4 1 0 0 0</pose>
+	<pose>3 3 1 0 0 3.14159265</pose>
     </include>
 
 
     <include>
         <name>tag_1</name>
 	<uri>model://tag</uri>
-	<pose>4 -4 1 0 0 0</pose>
+	<pose>3 -3 1 0 0 1.57079632679</pose>
     </include>
 
 
     <include>
         <name>tag_2</name>
 	<uri>model://tag</uri>
-	<pose>-4 4 1 0 0 0</pose>
+	<pose>-3 3 1 0 0 -1.57079632679</pose>
     </include>
 
 
@@ -35,7 +35,7 @@
     <include>
         <name>tag_3</name>
 	<uri>model://tag</uri>
-	<pose>-4 -4 1 0 0 0</pose>
+	<pose>-3 -3 1 0 0 0</pose>
     </include>
    
 
