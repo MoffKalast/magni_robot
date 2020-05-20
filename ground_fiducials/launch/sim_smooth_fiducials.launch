@@ -18,7 +18,7 @@
     </include>
 
     <!-- Run move_basic to drive the robot -->
-    <node name="move_basic" pkg="move_basic" type="move_basic" output="screen">
+    <node name="move_basic" pkg="move_basic" type="move_basic" output="log">
         <!-- Footprint for obstacle detection -->
         <param name="robot_width" value="0.20"/>
         <param name="robot_front_length" value="0.1"/>
